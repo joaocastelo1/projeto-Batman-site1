@@ -53,4 +53,4 @@ Este projeto está licenciado sob a MIT License.
 Contato
 Para mais informações, entre em contato através do linkedin 
 <a href=“https://www.linkedin.com/in/joao-castelo-ferreira/“>joao Castelo</a>
-[Flex Grid](http://exemplo.com/)
+[Flex Grid](https://www.linkedin.com/in/joao-castelo-ferreira/)
