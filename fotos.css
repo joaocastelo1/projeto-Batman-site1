@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 120px;
+    height: auto;
+}
+
+.actor-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    margin-left: 50px;
+}
+
+.card {
+    width: 80%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.foto1 {
+    background-image: url('http://conteudo.imguol.com.br/2012/08/13/robert-pattinson-na-estreia-de-cosmopolis-no-museu-de-arte-moderna-de-nova-york-13812-1344903604240_615x470.jpg');
+}
+
+.foto2 {
+    background-image: url('https://br.web.img2.acsta.net/pictures/20/10/07/20/38/1264964.jpg');
+}
+
+.foto3 {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2020/12/20201218-jeffrey_wright_gotham_the_batman_hbo_max_commissioner_gordon-555x555.png');
+}
+
+.foto4 {
+    background-image: url('https://br.web.img3.acsta.net/c_310_420/pictures/210/258/21025839_20130808190408423.jpg');
+}
+
+.foto5 {
+        background-image: url('https://akns-images.eonline.com/eol_images/Entire_Site/2014112/rs_600x600-140212132827-300-colinfarrell.jc.214.jpeg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top');
+}
+
+.foto6 {
+    background-image: url('https://cinema10.com.br/upload/personalidades/personalidades_2508_Andy%20Serkis.jpg');
+}
+
+.foto7 {
+    background-image: url('https://flxt.tmsimg.com/assets/33505_v9_ba.jpg')
+}
+
+.foto8 {
+    background-image: url('https://i.postimg.cc/BQFkxD7k/Barry-Keoghan-Stanley-Merkel.png');
+}
+
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
