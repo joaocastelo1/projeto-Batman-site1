@@ -52,5 +52,5 @@ Este projeto está licenciado sob a MIT License.
 
 Contato
 Para mais informações, entre em contato através do linkedin 
-<a href=“/www.linkedin.com/in/joao-castelo-ferreira“>joao Castelo</a>
+<a href=“/www.linkedin.com/in/joao-castelo-ferreira/“>joao Castelo</a>
 
